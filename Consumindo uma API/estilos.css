@@ -1,0 +1,139 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    margin: 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(https://wallpaperaccess.com/full/1087797.jpg); 
+}
+  
+#menu { 
+    padding: 1em 2em;
+    margin-bottom: 0.5px;
+}
+
+#menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.671); 
+    padding: 1em 2em;
+    margin-bottom: 2em;
+}
+
+
+#select-container {
+    display: flex;
+    align-items: center;
+}
+
+
+
+#select-container a {
+    color: #202020;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nomePaises {
+    border-radius: 100px;
+    border-color: #b1adad;
+    padding: 0.5em 0.5em;
+    background-color: #ececec;
+}
+
+  
+  #menu a {
+    color: #202020;
+    padding: 0.5em 4em;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #menu a:hover {
+    text-decoration: underline;
+  }
+
+
+  #nome h1{
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    padding: 1em 0em;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  #bandeira img {
+    width: 500px; 
+    padding: 1em 43em 0;
+
+  }
+
+  #capital a{
+    color: #000000;
+    padding: 0.5em 12em;
+
+  }
+
+  #continente a{
+    color: #000000;
+    padding: 0.5em 0em;
+
+  }
+
+  #populacao a{
+    color: #000000;
+    padding: 0.5em 1em;
+
+  }
+
+  #area a{
+    color: #000000;
+    padding: 0.5em 4em;
+
+  }
+
+  #idioma a{
+    color: #000000;
+    padding: 0.5em 4em;
+
+  }
+
+  #moeda a{
+    color: #000000;
+    padding: 0.5em 4em;
+
+  }
+
+  #fronteira a{
+    color: #000000;
+    padding: 0.5em 4em;
+    cursor: pointer;
+
+  }
+
+  #fronteira:active a{
+    color: blue;
+    }
+
+  #dados-pais {
+    background-color: rgba(255, 255, 255, 0.616);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    color: #333;
+    display: flex;
+    flex-wrap: wrap; 
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+#dados-pais div {
+    flex: 100 0 calc(30% - 20px); /* Diminua a largura máxima para 30% */
+    padding: 10px;
+    text-align: center; /* Alinhe o texto à esquerda */
+    margin-bottom: 20px;
+}
+
+
